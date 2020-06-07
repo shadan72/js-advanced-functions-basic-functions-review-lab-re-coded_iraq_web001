@@ -13,6 +13,7 @@ let mondayWork= function(activity="go to the office"){
 };
 
 function wrapAdjective(param1='*'){
+
   return function(param2="special"){
    
    let msg=`You are ${param1}${param2}${param1}!` ;
@@ -20,12 +21,13 @@ function wrapAdjective(param1='*'){
   };
 }
 
+
 const Calculator={
   add: (a,b)=>a + b,
   subtract: (a,b)=>a - b,
   multiply: (a,b)=>a * b,
   divide: (a,b)=>a / b
-}
+};
 
 function actionApplyer(intStart, ArrayOfFunc){
   if(ArrayOfFunc=='')
@@ -33,10 +35,8 @@ function actionApplyer(intStart, ArrayOfFunc){
 
 else {
   ArrayOfFunc.forEach(innerFunc=>{
-    intStart=innerFunc(intStart)
-  })
-      return intStart
+    intStart=innerFunc(intStart);
+  });
+      return intStart;
 }
 }
-
-
