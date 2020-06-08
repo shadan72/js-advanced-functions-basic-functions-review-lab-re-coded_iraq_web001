@@ -13,15 +13,29 @@ let mondayWork= function(activity="go to the office"){
 };
 
 function wrapAdjective(param1='*'){
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> b5d1e993dfaa3b65ea23d9f28cc149bc4585751d
   return function(param2="special"){
    
    let msg=`You are ${param1}${param2}${param1}!` ;
+=======
+  if(param1 === '*')
+  return function(param2="special"){
+   
+   let msg=`You are ${param1}${param2}` ;
+>>>>>>> 93f346521c131c957b089838b7b270b38136ad40
    return msg;
   };
 }
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> b5d1e993dfaa3b65ea23d9f28cc149bc4585751d
 const Calculator={
   add: (a,b)=>a + b,
   subtract: (a,b)=>a - b,
@@ -39,4 +53,12 @@ else {
   });
       return intStart;
 }
+<<<<<<< HEAD
 }
+=======
+}
+
+
+=======
+>>>>>>> 93f346521c131c957b089838b7b270b38136ad40
+>>>>>>> b5d1e993dfaa3b65ea23d9f28cc149bc4585751d
